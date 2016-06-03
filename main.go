@@ -14,7 +14,7 @@ var (
 
 func main() {
 	flag.Float64Var(&flagMoney, "money", 130.00, "your earnings per day")
-	flag.IntVar(&flagStartHour, "start-hour", 8, "your earnings per day")
+	flag.IntVar(&flagStartHour, "start-hour", 8, "hour of the day you start working, this will change in the future")
 	flag.DurationVar(&flagJobDuration, "duration", time.Hour*8, "hours per day you work")
 	flag.Parse()
 
