@@ -9,4 +9,4 @@ The tool every ex-workaholic needs.
 
 ## Is this a joke?
 
-Obviously not!
+Of course!
